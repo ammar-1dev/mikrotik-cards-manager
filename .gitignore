@@ -1,0 +1,30 @@
+# Original exports and sensitive material — never publish
+all_config*
+*.rsc.txt
+*unredacted*
+*private*
+secrets/
+credentials/
+*.pem
+*.key
+*.p12
+*.pfx
+.env
+.env.*
+
+# VM / disk images
+*.vmdk *.ova *.ovf *.iso *.qcow2 *.vdi *.vhd *.vhdx
+Snapshots/
+
+# Raw captures and logs
+*.pcap *.pcapng *.evtx *.log
+logs/
+captures/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.swp
